@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="app" />
         <module name="employee-microservice" />
+        <module name="employee-microservice-work" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="app" options="-parameters" />
       <module name="employee-microservice" options="-parameters" />
+      <module name="employee-microservice-work" options="-parameters" />
     </option>
   </component>
 </project>
